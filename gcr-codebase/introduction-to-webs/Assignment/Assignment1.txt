@@ -1,0 +1,112 @@
+1.
+
+FRONTEND Development focuses on the user interface (UI) and user experience (UX).
+
+BACKEND Development focuses on server-side logic, databases, and functionality.
+
+FULL STACK Development handles both frontend and backend development.
+
+For real life example lets take Netflix app, 
+frontend deals with the movies posters , cateogires,video player and all the pages which you can see in Netflix browser.
+ 
+Backend keeps track of your watch history,stream videos from servers.
+
+Full Stack who builds both the Netflix website/app and the backend systems.
+
+
+2.
+
+Client-Server Model
+
++-------------------+       +-------------------+       +-------------------+
+|       Client      |       |      Internet     |       |       Server      |
+|   (Web Browser)   |------>|     (Network)     |------>|   (Website Host) |
++-------------------+       +-------------------+       +-------------------+
+        |                           |                           |
+        | 1. User requests URL      |                           |
+        | 2. Browser sends HTTP     |-------------------------->|
+        |                           |                           |
+        |                           | 3. Server sends           |
+        |<------------------------------------------------------|
+        |       requested files                                 |
+        |                                                       |
+        | 4. Browser renders website                            |
+        v                                                       |
+   [Web Page Displayed]                                        |
+
+
+
+3.
+
+Type a URL, hit enter — the browser fires a request across the internet to whichever server owns that address. The server digs up the matching page and sends the files back: HTML, CSS, JS, images. The browser parses all of it and paints it on your screen.
+
+Examplle: type www.google.com and the whole round trip — request out, files back, page rendered — happens in under a second.
+
+
+4.
+
+VS Code – the actual code editor
+Browser – for viewing/testing
+Git – tracks changes locally
+GitHub – hosts the repo, handles team collaboration
+Node.js – runs JS outside the browser
+npm – package manager, pulls in libraries
+Live Server – refreshes automatically on save
+
+5.) Web servers
+
+It is a Software or a computer that stores your site and serves it up on request. Commonly used web servers are: Apache, Nginx and LiteSpeed.
+Example: opening google.com means a server somewhere just processed your request and handed the page back.
+
+6.) Frontend developer, backend developer, DBA — roles
+
+a.Frontend builds the part where users click on — HTML/CSS/JS, layout, making sure it doesn't break on mobile. 
+
+b.Backend is the part which nobody sees: server logic, APIs, request handling, usually in Java, Python, PHP, or Node.
+ 
+c.The DBA sits inside both(frontend and backend) of them, designing and securing the database so the other two actually have data to work with.
+
+Take a shopping site: frontend is the storefront, backend handles login and checkout, the DBA makes sure none of the order data gets lost.
+
+7.) Setting up VS Code for HTML/CSS/JS
+
+Download and install Visual Studio Code (VS Code).
+Open VS Code after installation.
+Create a new folder for your web project.
+Open the folder in VS Code.
+Create three files:
+index.html
+style.css
+script.js
+Install the Live Server extension from the Extensions tab.
+Write your HTML, CSS, and JavaScript code.
+Right-click index.html → Open with Live Server.
+
+8.) Static vs. dynamic websites
+
+Static -> same page for every visitor, no database, only changes when someone edits the files by hand. Portfolios, brochure sites.
+
+Dynamic -> content shifts per user or per query against a database — Facebook, Amazon, Instagram. Heavier to build, but does a lot more.
+
+9.) Browsers and their rendering engines
+
+Chrome, Edge, and Opera all sit on Blink — fast, current with web standards. Firefox runs its own engine, Gecko, with more emphasis on standards and privacy. Safari uses WebKit, built specifically around Apple hardware and battery efficiency.
+
+10.
+
+
++----------------+       +----------------+       +----------------+
+|    CLIENT      |       |     SERVER     |       |    DATABASE    |
+|  (Web Browser) | ----> | (Application)  | ----> | (MySQL/MongoDB)|
+|                |       |                |       |                |
+| HTML, CSS, JS  |       | Business Logic |       | Data Storage   |
++----------------+       +-------+--------+       +----------------+
+                                 |
+                                 | API Request
+                                 v
+                         +----------------+
+                         |      APIs      |
+                         | External APIs  |
+                         +----------------+
+
+The browser sends a request to the server, which processes it and gets the required information from APIs or the database. The server then sends the result back to the browser.
