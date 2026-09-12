@@ -1,0 +1,61 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #f2f2f2;
+}
+
+.box {
+    text-align: center;
+}
+
+.move {
+    width: 60px;
+    height: 60px;
+    background: blue;
+    animation: move 3s ease-in-out infinite alternate;
+}
+
+.ball {
+    width: 50px;
+    height: 50px;
+    background: red;
+    border-radius: 50%;
+    margin: 30px auto;
+    animation: bounce 1s ease-in-out infinite;
+    animation-delay: 0.5s;
+}
+
+h1 {
+    animation: change 2s ease-in-out infinite;
+    animation-direction: alternate;
+}
+
+@keyframes move {
+    from {
+        transform: translateX(-100px);
+    }
+    to {
+        transform: translateX(100px);
+    }
+}
+
+@keyframes bounce {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-80px);
+    }
+}
+
+@keyframes change {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(1.2);
+    }
+}

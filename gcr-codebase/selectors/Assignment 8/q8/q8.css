@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background: #f4f4f4;
+    padding: 30px;
+}
+
+.boxes {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 50px;
+}
+
+.box {
+    width: 250px;
+    padding: 30px;
+    border: 8px solid;
+}
+
+.normal {
+    box-sizing: content-box;
+    background: lightblue;
+    border-color: blue;
+}
+
+.border {
+    box-sizing: border-box;
+    background: lightgreen;
+    border-color: green;
+}
+
+@media (max-width: 600px) {
+    .boxes {
+        flex-direction: column;
+        align-items: center;
+    }
+}

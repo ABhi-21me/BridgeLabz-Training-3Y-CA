@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background: #f3f3f3;
+}
+
+.examples {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 80px;
+}
+
+button {
+    padding: 15px 30px;
+    border: none;
+    border-radius: 8px;
+    background: steelblue;
+    color: white;
+    box-shadow: 0 3px 8px #aaa;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+button:hover {
+    background: darkblue;
+    transform: scale(1.1);
+    box-shadow: 0 6px 12px #888;
+}
+
+button:active {
+    transform: scale(0.95);
+}

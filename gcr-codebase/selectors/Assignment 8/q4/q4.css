@@ -1,0 +1,48 @@
+/* Element selector */
+p {
+    color: #333;
+}
+
+/* Class selector */
+.special {
+    color: blue;
+}
+
+/* ID selector */
+#unique {
+    color: red;
+}
+
+/* Attribute selector */
+a[target="_blank"] {
+    background: yellow;
+}
+
+/* Child combinator */
+ul > li {
+    margin: 8px;
+}
+
+/* Descendant combinator */
+div p {
+    font-weight: bold;
+}
+
+/* Adjacent sibling */
+div + p {
+    color: green;
+}
+
+/* General sibling */
+div ~ p {
+    background: #eee;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+header, footer {
+    text-align: center;
+}
