@@ -1,0 +1,43 @@
+body {
+    font-family: Arial;
+    text-align: center;
+    background: #f4f4f4;
+}
+
+.plans {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: stretch;
+}
+
+.plan {
+    width: 260px;
+    padding: 25px;
+    background: white;
+    border: 2px solid #ccc;
+    transition: 0.3s;
+}
+
+.plan:hover {
+    transform: scale(1.05);
+    background-color: #eaf4ff;
+}
+
+.popular {
+    border: 3px solid #0077cc;
+}
+
+.plan ul {
+    text-align: left;
+    min-height: 100px;
+}
+
+.plan a {
+    display: inline-block;
+    background: #0077cc;
+    color: white;
+    padding: 10px 18px;
+    text-decoration: none;
+    border-radius: 5px;
+}

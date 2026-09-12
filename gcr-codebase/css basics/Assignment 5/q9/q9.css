@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    background-color: #e6e2d3;
+    font-family: Georgia, serif;
+}
+
+main {
+    margin: 30px;
+    padding: 30px;
+    background: white;
+}
+
+.news {
+    column-count: 3;
+    column-gap: 35px;
+    text-align: justify;
+    line-height: 1.6;
+}
+
+h1 {
+    column-span: all;
+    text-align: center;
+    font-family: "Times New Roman", serif;
+}
+
+.news img {
+    width: 180px;
+    float: left;
+    margin: 0 15px 10px 0;
+}

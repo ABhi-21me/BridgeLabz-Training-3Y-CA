@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+header,
+nav,
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #222;
+    color: white;
+}
+
+nav a {
+    color: white;
+    margin: 15px;
+    text-decoration: none;
+}
+
+section {
+    min-height: 70vh;
+    padding: 60px;
+    border-bottom: 4px solid white;
+}
+
+#about {
+    background: linear-gradient(120deg, #ffecd2, #fcb69f);
+    background-attachment: fixed;
+}
+
+#places {
+    background: radial-gradient(circle, #c2e9fb, #a1c4fd);
+    background-attachment: fixed;
+}
+
+#food {
+    background-color: #fff3cd;
+}
+
+h2 {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+p {
+    font-size: 1.1rem;
+}
