@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    min-height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: auto;
+}
+
+.box1 {
+    width: 150px;
+    height: 150px;
+    background: lightblue;
+}
+
+.box2 {
+    width: 30%;
+    height: 200px;
+    min-height: 150px;
+    background: lightgreen;
+}
+
+.box3 {
+    width: 15em;
+    height: 25vh;
+    max-width: 250px;
+    background: lightpink;
+}

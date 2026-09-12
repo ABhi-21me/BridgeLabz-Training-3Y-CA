@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    background: #222;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 15px 25px;
+    border: 1px solid #555;
+    transition: all 0.3s ease;
+}
+
+nav a:hover {
+    background: gray;
+}
+
+nav a.active {
+    background: blue;
+    border-bottom: 3px solid white;
+}
+
+main {
+    min-height: 400px;
+    text-align: center;
+    padding-top: 50px;
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
+    background: #222;
+    color: white;
+}
+
+@media (max-width: 700px) {
+    nav {
+        flex-direction: column;
+    }
+
+    nav a {
+        text-align: center;
+    }
+}

@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.demo {
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+}
+
+.margin {
+    background: lightyellow;
+    padding: 30px;
+}
+
+.border {
+    background: lightblue;
+    border: 8px solid black;
+    padding: 25px;
+}
+
+.padding {
+    background: lightgreen;
+    padding: 25px;
+}
+
+.content {
+    background: white;
+    padding: 40px;
+}
+
+.sizes {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin: 30px;
+}
+
+.normal, .borderbox {
+    width: 200px;
+    height: 100px;
+    padding: 20px;
+    border: 5px solid black;
+}
+
+.normal {
+    background: lightpink;
+}
+
+.borderbox {
+    box-sizing: border-box;
+    background: lightgray;
+}

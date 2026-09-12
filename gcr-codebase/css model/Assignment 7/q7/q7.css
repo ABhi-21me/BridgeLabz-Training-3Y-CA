@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f5f5f5;
+}
+
+article {
+    max-width: 700px;
+    margin: 60px auto;
+    background: white;
+    padding: 30px;
+    line-height: 1.7;
+    letter-spacing: 0.5px;
+}
+
+h1 {
+    text-align: center;
+    font-family: Georgia, serif;
+}
+
+h2 {
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+}
+
+p {
+    font-size: 18px;
+    text-align: justify;
+}
+
+mark {
+    background: lightyellow;
+    color: darkred;
+}
+
+strong {
+    color: blue;
+}
+
+em {
+    color: green;
+}
+
+article p::first-letter {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+article p::first-line {
+    font-weight: bold;
+}

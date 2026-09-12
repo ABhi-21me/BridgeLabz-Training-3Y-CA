@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 80px;
+}
+
+.box {
+    width: 120px;
+    height: 120px;
+    background: lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.4s ease;
+}
+
+.rotate:hover {
+    transform: rotate(20deg);
+}
+
+.scale:hover {
+    transform: scale(1.2);
+}
+
+.translate:hover {
+    transform: translate(20px, -20px);
+}
+
+.skew:hover {
+    transform: skew(15deg);
+}
