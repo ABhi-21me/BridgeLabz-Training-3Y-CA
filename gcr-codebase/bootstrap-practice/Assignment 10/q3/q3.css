@@ -1,0 +1,11 @@
+.product {
+    transition: 0.3s;
+}
+.product:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15) !important;
+}
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}

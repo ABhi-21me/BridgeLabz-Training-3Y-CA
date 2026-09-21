@@ -1,0 +1,11 @@
+.hero {
+    padding: 120px 0;
+    background: #eef4ff;
+}
+.hero h1 {
+    font-size: 52px;
+    font-weight: bold;
+}
+.hero p {
+    color: #555;
+}
