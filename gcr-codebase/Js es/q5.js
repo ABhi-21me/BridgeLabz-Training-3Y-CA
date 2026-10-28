@@ -1,0 +1,22 @@
+"use strict";
+
+
+let score = 50;
+let status = "ready";
+
+function announce() {
+    console.log("Game started");
+}
+
+function startGame() {
+    console.log(status);
+}
+
+console.log(score);
+announce();
+startGame();
+
+
+const sayHi = () => console.log("Hi");
+sayHi();
+
