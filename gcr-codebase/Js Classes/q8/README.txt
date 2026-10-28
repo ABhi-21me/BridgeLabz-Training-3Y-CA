@@ -1,0 +1,1 @@
+The form starts with the given user values. On submit, it updates the same user object and displays the latest details below the form.

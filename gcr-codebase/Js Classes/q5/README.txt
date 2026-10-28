@@ -1,0 +1,1 @@
+The form validates the name, email and seat count. If all values are valid, it stores them in a booking object and displays the ticket details.

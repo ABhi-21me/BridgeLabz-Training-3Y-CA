@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Movie Ticket Booking</title>
+    <style>
+        body { font-family: Arial; max-width: 420px; margin: 30px auto; }
+        input { display: block; width: 100%; box-sizing: border-box; padding: 8px; margin: 6px 0 12px; }
+    </style>
+</head>
+<body>
+    <h2>Movie Ticket Booking</h2>
+    <form id="bookForm">
+        <label>Name</label><input id="name">
+        <label>Email</label><input id="email">
+        <label>Seats (1-10)</label><input id="seats" type="number" min="1" max="10">
+        <button type="submit">Book Ticket</button>
+    </form>
+    <p id="msg"></p>
+    <script src="q5.js"></script>
+</body>
+</html>

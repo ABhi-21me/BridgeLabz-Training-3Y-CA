@@ -1,0 +1,1 @@
+The Cart class totals item price multiplied by quantity. SAVE20 gives 20% off and DISC10 gives 10% off; other codes are rejected.

@@ -1,0 +1,1 @@
+The page checks that the username has at least five characters and that the password includes uppercase, lowercase, a number and a special character.

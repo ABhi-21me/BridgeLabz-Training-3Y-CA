@@ -1,0 +1,1 @@
+This creates products, gives the keyboard a 10% discount, and prints products whose price is above Rs. 1000.

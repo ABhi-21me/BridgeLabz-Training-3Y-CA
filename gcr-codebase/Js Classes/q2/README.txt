@@ -1,0 +1,1 @@
+The form checks name, email, phone and password with regular expressions. Invalid fields get a red border; valid fields get a green border.

@@ -1,0 +1,1 @@
+This creates five employees, applies a 10% bonus to one employee, prints each annual salary and uses reduce() to find the total annual payout.

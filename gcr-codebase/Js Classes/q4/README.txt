@@ -1,0 +1,1 @@
+FormBuilder creates fields from an array and shows all entered values as an object when Submit is clicked.
